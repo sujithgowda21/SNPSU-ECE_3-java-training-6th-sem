@@ -1,9 +1,7 @@
 package oops.abstraction.partial;
 
 abstract class RBI {
-     int ROI(){
-         return 20;
-     }
+    abstract int ROI();
 
 
 }
@@ -12,8 +10,6 @@ class HDFC extends RBI {
      return 4;
     }
 }
-
-
 class SBI extends RBI {
     int ROI() {
         return 6;
