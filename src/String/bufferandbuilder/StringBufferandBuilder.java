@@ -4,7 +4,7 @@ public class StringBufferandBuilder {
     public static void main(String[] args) {
         long startTime=System.currentTimeMillis();
         StringBuffer sbf=new StringBuffer(" Hello ");
-        for (int i=0; i<1000000; i++){
+        for  (int i=0; i<1000000; i++){
             sbf.append(" world");
         }
         long stopTime=System.currentTimeMillis();
